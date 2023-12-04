@@ -4,5 +4,6 @@ build:
 
 run:
   web:
-    command: gotenberg -w 4000
+    command:
+      - gotenberg -w 4000
     image: web
