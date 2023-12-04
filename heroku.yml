@@ -6,4 +6,4 @@ run:
   web:
     command:
       - gotenberg -w 8080
-    image: simplebooks-pdf-gotenberg-gotenberg/gotenberg:6
+    image: simplebooks-pdf-gotenberg-gotenberg
