@@ -1,9 +1,0 @@
-build:
-  docker:
-    web: Dockerfile
-
-run:
-  web:
-    command:
-      - "gotenberg -w 3000"  # Change the port to 4000
-    image: web
