@@ -1,6 +1,0 @@
-version: '3'
-services:
-  gotenberg:
-    build: .
-    ports:
-      - "4000:3000"
