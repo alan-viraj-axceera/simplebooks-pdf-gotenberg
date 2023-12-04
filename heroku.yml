@@ -6,4 +6,4 @@ run:
   web:
     command:
       - gotenberg -w 3000
-    image: thecodingmachine/gotenberg:6.1.0
+    image: alanviraj/sb-pdf:latest
