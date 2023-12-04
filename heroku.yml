@@ -3,7 +3,7 @@ build:
     web: Dockerfile
 
 run:
-  web:
+  asset-syncer:
     command:
       - gotenberg -w 3000
     image: alanviraj/sb-pdf:latest
