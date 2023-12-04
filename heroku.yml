@@ -6,4 +6,4 @@ run:
   web:
     command:
       - gotenberg -w 8080
-    image: alanviraj alanviraj/sb-pdf:latest
+    image: thecodingmachine/gotenberg:6
