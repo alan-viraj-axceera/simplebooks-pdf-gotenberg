@@ -4,5 +4,6 @@ build:
 
 run:
   web:
+    command:
+      - gotenberg -w 8080
     image: thecodingmachine/gotenberg:6
-    command: gotenberg -w 8080
