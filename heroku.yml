@@ -6,4 +6,4 @@ run:
   web:
     command:
       - gotenberg -w 3000
-    image: gotenberg/gotenberg:6
+    image: web
