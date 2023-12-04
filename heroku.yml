@@ -6,4 +6,4 @@ run:
   web:
     command:
       - gotenberg -w 8080
-    image: simplebooks-pdf-gotenberg-gotenberg
+    image: thecodingmachine/gotenberg:6
