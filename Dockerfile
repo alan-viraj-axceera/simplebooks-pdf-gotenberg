@@ -1,7 +1,8 @@
 FROM thecodingmachine/gotenberg:6
 
-# Expose port 4000
 EXPOSE 4000
 
-# Run Gotenberg in the background
-CMD ["gotenberg", "-w", "4000"]
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN chmod +x /docker-entrypoint.sh
+
+ENTRYPOINT ["/docker-entrypoint.sh"]

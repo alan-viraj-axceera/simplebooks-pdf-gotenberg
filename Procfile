@@ -1,1 +1,1 @@
-web: gotenberg -w 4000
+web: gotenberg serve --port 4000 # Run Gotenberg in the background
