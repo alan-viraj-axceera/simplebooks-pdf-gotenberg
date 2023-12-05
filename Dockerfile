@@ -1,8 +1,8 @@
 FROM thecodingmachine/gotenberg:6
 
+# Expose port 4000 if needed
 EXPOSE 4000
 
-COPY docker-entrypoint.sh /docker-entrypoint.sh
-RUN chmod +x /docker-entrypoint.sh
+# Add any custom scripts or Gotenberg configuration
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
+CMD ["/gotenberg"]

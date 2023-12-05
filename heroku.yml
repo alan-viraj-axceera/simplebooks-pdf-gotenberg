@@ -1,0 +1,12 @@
+build:
+  docker:
+    context: .
+    dockerfile: Dockerfile
+
+release:
+  config:
+    PORT: 4000 # Change this to your exposed port if needed
+
+  services:
+    gotenberg:
+      command: ["/gotenberg"]
